@@ -13,7 +13,7 @@ const ServiceCard = ({service}) => {
                 <p className='text-justify'>{details}...'</p>
                 <h3 className='text-2xl'>Price:{price}</h3>
                 <div className="card-actions">
-                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="btn btn-primary">Service Details</button>
                 </div>
             </div>
         </div>

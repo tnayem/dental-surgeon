@@ -1,14 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { useLoaderData } from 'react-router-dom';
 import useTitle from '../../Hooks/useTitle';
 import SingleService from '../SingleService/SingleService';
 
 const AllServices = () => {
-    const [allService, setAllService] = useState();
-    useEffect(() => {
-        fetch('services.json')
-            .then(res => res.json())
-            .then(data => setAllService(data))
-    }, [])
+    const allService = useLoaderData();
     useTitle("Services");
     return (
         <div className='py-12'>
