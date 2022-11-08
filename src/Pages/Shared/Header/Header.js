@@ -1,9 +1,11 @@
 import React from 'react';
+import logo from '../../../img/logo/dental1-logo.png'
 import { Link } from 'react-router-dom';
 
 const Header = () => {
     const menuItem = <>
         <li className='font-semibold'><Link to='/'>Home</Link></li>    
+        <li className='font-semibold'><Link to='/service'>Service</Link></li>    
     </>
     return (
         <div className="navbar bg-base-100 py-8">

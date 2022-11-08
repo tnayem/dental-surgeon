@@ -1,0 +1,158 @@
+[
+    {
+        "_id": "635a0c0b64a6d231228942ae",
+        "service_id": "04",
+        "title": "Teeth Cleanings ",
+        "img": "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1914067.jpg",
+        "price": "20.00",
+        "description": "This is by far the most common reason people visit the dentist. Many dentists recommend a cleaning every six months, and some recommend once a year. Either way, it’s a very important part of oral health. Your own toothbrush will never be as efficient as the tools a dentist uses to clean your teeth.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "_id": "635a0c0b64a6d231228942af",
+        "service_id": "05",
+        "title": "Teeth Whitening",
+        "img": "https://i0.wp.com/harborpointdentalgroup.com/wp-content/uploads/2022/10/teeth-whitening.jpg?fit=1200%2C800&ssl=1",
+        "price": "20.00",
+        "description": "Like cleaning, whitening is a relatively discomfort-less process. Some people are sensitive to the whitening agents used, but otherwise it’s an easy procedure that most dental offices can do. At home teeth whitening kits involve a lot of extra time and effort. You need to buy kits and spend a lot of time.At a dentistry, bleaching is quicker and safer because it is performed by professionals. Most often, dentists use a special hydrogen peroxide gel and a special light source to whiten faster.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "_id": "635b591a1dafe382a9da8c96",
+        "service_id": "01",
+        "title": "Extractions",
+        "img": "https://www.gottsponerfamilydental.com/storage/app/media/8619de9f-2064-472f-baf4-9955cc37b0ee.jpg",
+        "price": "200.00",
+        "description": "Extractions sound scary and painful. Admittedly, they are not the most pleasant of procedures. However, your dentist will do everything in their power to help you feel comfortable. You may need an extraction for any number of reasons.When having a tooth pulled, you’ll likely be either unconscious or thoroughly numbed. You won’t be able to feel a thing! You may be sore afterwards, but extractions are almost always to prevent further pain.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "_id": "635b5afc1dafe382a9da8c98",
+        "service_id": "02",
+        "title": "Veneers",
+        "img": "https://www.6ixeglintondental.ca/wp-content/uploads/2022/04/6ixeglinton-dental-veneers.jpg",
+        "price": "150.00",
+        "description": "If your teeth are crooked or discoloured, your dentist might recommend veneers. These are very popular solutions to common tooth problems. It’s essentially a thin covering placed over the front section of a tooth or set of teeth. They’re mainly used for correctional purposes, but they can be used for whitening, too. The process is simple and painless for most people, and it’s easy for dentists to perform.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "_id": "635b5b691dafe382a9da8c99",
+        "service_id": "03",
+        "title": "Fillings",
+        "img": "https://www.dentiquecochin.com/blog/wp-content/uploads/2020/08/different-types-of-dental-fillings-1200x736.jpg",
+        "price": "30.00",
+        "description": "Cavities are all too common and all too easy to get. For most cavities, a filling is the recommended answer. Acids in food and inside your body can easily break down tooth enamel if overexposed.Luckily, filling most cavities is a quick procedure. You’ll likely be numbed, which can last for a few hours after the filling is over. It usually takes about an hour to finish up, and then it’s good as new! You might feel pressure while they’re working, but it shouldn’t be painful.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "_id": "635b5ba51dafe382a9da8c9a",
+        "service_id": "06",
+        "title": "Root Canal",
+        "img": "https://cdn-akiig.nitrocdn.com/SRLaeJSIBXJBQHkvVeABOKGBlsiERZCe/assets/static/optimized/rev-85fac59/wp-content/uploads/sites/157/2020/09/shutterstock_1342756040-2-1.jpg",
+        "price": "20.00",
+        "description": "This is one that most people dread, and for fair reasons. Root canals are usually preceded by some pretty awful tooth pain. A root canal means the tissue inside or under your tooth is infected and inflamed. To get rid of the pain, the dentist needs to deaden the nerve and remove the tissue. Sometimes you may need to take an antibiotic before the procedure.The good thing is that you’ll be numbed before it happens, so you won’t feel any pain, just pressure. Once the procedure is over – and it can take a few hours – you’ll be numb for a while, but hopefully pain free since the infection will be gone.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    }
+]
