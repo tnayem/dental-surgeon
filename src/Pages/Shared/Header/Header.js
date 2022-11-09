@@ -1,11 +1,25 @@
-import React from 'react';
+
 import logo from '../../../img/logo/dental1-logo.png'
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { AuthContext } from '../../../context/UserContext';
 
 const Header = () => {
+    const{user,logOut}= useContext(AuthContext);
+    const handleSignOut =()=>{
+        logOut()
+        .then(()=>{})
+        .catch(error=>console.error(error))
+    }
     const menuItem = <>
         <li className='font-semibold'><Link to='/'>Home</Link></li>    
         <li className='font-semibold'><Link to='/service'>Service</Link></li>    
+        <li className='font-semibold'><Link to='/register'>Register</Link></li>    
+        <li className='font-semibold'><Link to='/login'>Log In</Link></li>
+        {user?.email && <li className='font-semibold'><Link onClick={handleSignOut}>Log Out</Link></li>}
+        {user?.photoURL && <img className='w-16' src={user?.photoURL} alt="UP"></img>}
+        
+
     </>
     return (
         <div className="navbar bg-base-100 py-8">
