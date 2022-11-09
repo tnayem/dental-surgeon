@@ -32,7 +32,7 @@ const LogIn = () => {
         googleSignUp()
             .then(result => {
                 const user = result.user;
-                navigate('/')
+                navigate(from,{replace:true})
                 console.log(user);
             })
             .catch(error => {

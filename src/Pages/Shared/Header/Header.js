@@ -16,6 +16,8 @@ const Header = () => {
         <li className='font-semibold'><Link to='/service'>Service</Link></li>    
         <li className='font-semibold'><Link to='/register'>Register</Link></li>    
         <li className='font-semibold'><Link to='/login'>Log In</Link></li>
+        {user?.email && <li className='font-semibold'><Link>Add Service</Link></li>}
+        {user?.email && <li className='font-semibold'><Link>My Reviews</Link></li>}
         {user?.email && <li className='font-semibold'><Link onClick={handleSignOut}>Log Out</Link></li>}
         {user?.photoURL && <img className='w-11 rounded-full' src={user?.photoURL} alt="UP"></img>}
         
@@ -36,7 +38,7 @@ const Header = () => {
                 </div>
                 <Link to='/' className="normal-case text-xl font-extrabold">Dr.Abdul Jolill</Link>
             </div>
-            <div className="navbar-end hidden lg:flex">
+            <div className="hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     {
                        menuItem 
