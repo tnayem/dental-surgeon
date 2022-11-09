@@ -6,6 +6,7 @@ import Home from '../../Pages/Home/Home/Home';
 import LogIn from '../../Pages/LogIn/LogIn';
 import Register from '../../Pages/Register/Register';
 import ServiceDetails from '../../Pages/ServiceDetails/ServiceDetails';
+import PrivateRouts from '../PrivateRouts/PrivateRouts';
 
 const router = createBrowserRouter([
     {
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
             },
             {
                 path:'/service',
-                element:<AllServices></AllServices>,
+                element:<PrivateRouts><AllServices></AllServices></PrivateRouts>,
                 loader:()=>fetch('http://localhost:5000/services')
             },
             {

@@ -1,12 +1,14 @@
 
 import React, { useContext, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/UserContext';
 
 const LogIn = () => {
     const [error, setError] = useState(null);
     const navigate = useNavigate()
+    const location = useLocation();
     const { signIn, googleSignUp } = useContext(AuthContext)
+    const from = location.state?.from?.pathname || '/';
     const handleSubmit = (e) => {
         e.preventDefault();
         const form = e.target;
@@ -19,7 +21,7 @@ const LogIn = () => {
                 console.log(user);
                 setError('')
                 form.reset();
-                navigate('/');
+                navigate(from,{replace:true});
             })
             .catch(error => {
                 console.error(error);
