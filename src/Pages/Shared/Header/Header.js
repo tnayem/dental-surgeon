@@ -17,7 +17,7 @@ const Header = () => {
         <li className='font-semibold'><Link to='/register'>Register</Link></li>    
         <li className='font-semibold'><Link to='/login'>Log In</Link></li>
         {user?.email && <li className='font-semibold'><Link onClick={handleSignOut}>Log Out</Link></li>}
-        {user?.photoURL && <img className='w-16' src={user?.photoURL} alt="UP"></img>}
+        {user?.photoURL && <img className='w-11 rounded-full' src={user?.photoURL} alt="UP"></img>}
         
 
     </>
