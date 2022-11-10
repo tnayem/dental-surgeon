@@ -12,6 +12,24 @@ const MyReview = () => {
             .then(res => res.json())
             .then(data => setMyReviews(data))
     }, [user?.email])
+    const handleDelete =(id)=>{
+        const proceed =window.confirm('Are you sure you want to delate your review')
+        if(proceed){
+            fetch(`http://localhost:5000/reviews/${id}`,{
+                method:'DELETE'
+            })
+            .then(res=>res.json())
+            .then(data=>{
+                console.log(data)
+                if(data.deletedCount>0){
+                    alert('Delated Successfully')
+                    const remaining = myReviews.filter(rev=>rev._id !==id)
+                    setMyReviews(remaining)
+                }
+            })
+            
+        }
+    }
     return (
         <div>
             <h1 className='text-4xl text-center py-12'>My All Review</h1>
@@ -29,6 +47,7 @@ const MyReview = () => {
                       myReviews?.map(myReview=><MyAllReview
                         key={myReview._id}
                         myReview={myReview}
+                        handleDelete={handleDelete}
                         ></MyAllReview>)
                     }
                 </table>

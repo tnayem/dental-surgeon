@@ -6,7 +6,6 @@ import AllServices from '../../Pages/AllServices/AllServices';
 import Blog from '../../Pages/Blog/Blog';
 import Home from '../../Pages/Home/Home/Home';
 import LogIn from '../../Pages/LogIn/LogIn';
-import MyAllReview from '../../Pages/MyAllReview/MyAllReview';
 import MyReview from '../../Pages/MyReview/MyReview';
 import Register from '../../Pages/Register/Register';
 import ServiceDetails from '../../Pages/ServiceDetails/ServiceDetails';

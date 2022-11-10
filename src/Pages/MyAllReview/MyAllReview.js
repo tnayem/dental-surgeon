@@ -1,8 +1,9 @@
 import React from 'react';
 
-const MyAllReview = ({ myReview }) => {
+const MyAllReview = ({ myReview,handleDelete }) => {
     console.log(myReview);
     const {displayName,email,review,serviceName,services,_id,image}=myReview;
+    
     return (
 
         <tbody>
@@ -25,7 +26,7 @@ const MyAllReview = ({ myReview }) => {
                 <td>{serviceName}</td>
                 <th>
                     <button className="btn btn-ghost btn-xs">Edit</button>
-                    <button className="btn btn-ghost btn-xs">Delate</button>
+                    <button onClick={()=>handleDelete(_id)} className="btn btn-ghost btn-xs">Delate</button>
                 </th>
             </tr>
         </tbody>
