@@ -5,22 +5,26 @@ import { useContext } from 'react';
 import { AuthContext } from '../../../context/UserContext';
 
 const Header = () => {
-    const{user,logOut}= useContext(AuthContext);
-    const handleSignOut =()=>{
+    const { user, logOut } = useContext(AuthContext);
+    const handleSignOut = () => {
         logOut()
-        .then(()=>{})
-        .catch(error=>console.error(error))
+            .then(() => { })
+            .catch(error => console.error(error))
     }
     const menuItem = <>
-        <li className='font-semibold'><Link to='/'>Home</Link></li>    
-        <li className='font-semibold'><Link to='/service'>Service</Link></li>    
-        <li className='font-semibold'><Link to='/register'>Register</Link></li>    
-        <li className='font-semibold'><Link to='/login'>Log In</Link></li>
-        {user?.email && <li className='font-semibold'><Link>Add Service</Link></li>}
-        {user?.email && <li className='font-semibold'><Link>My Reviews</Link></li>}
-        {user?.email && <li className='font-semibold'><Link onClick={handleSignOut}>Log Out</Link></li>}
+        <li className='font-semibold'><Link to='/'>Home</Link></li>
+        <li className='font-semibold'><Link to='/service'>Service</Link></li>
+        {user?.email && <li className='font-semibold'><Link to='/addservice'>Add Service</Link></li>}
+        {user?.email && <li className='font-semibold'><Link to='/myreview'>My Reviews</Link></li>}
+        <li className='font-semibold'><Link to='/register'>Register</Link></li>
+        {
+            user?.email?
+                <li className='font-semibold'><Link onClick={handleSignOut}>Log Out</Link></li>
+                :
+                <li className='font-semibold'><Link to='/login'>Log In</Link></li>
+        }
         {user?.photoURL && <img className='w-11 rounded-full' src={user?.photoURL} alt="UP"></img>}
-        
+
 
     </>
     return (
@@ -41,7 +45,7 @@ const Header = () => {
             <div className="hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     {
-                       menuItem 
+                        menuItem
                     }
                 </ul>
             </div>

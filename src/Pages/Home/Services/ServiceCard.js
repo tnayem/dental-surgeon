@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ServiceCard = ({service}) => {
+    console.log(service.price);
     const {title,_id,img,price,description} = service;
     const details = description.slice(0,100);
     return (

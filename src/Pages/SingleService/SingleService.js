@@ -13,7 +13,7 @@ const SingleService = ({ singleService }) => {
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">{title}</h2>
                     <p className='text-justify'>{details}...'</p>
-                    <h3 className='text-2xl'>Price: ${price}</h3>
+                    <h3 className='text-2xl'>Price:${price}</h3>
                     <div className="card-actions">
                         <Link to={`/services/${_id}`} ><button className="btn btn-primary">Service Details</button></Link>
                     </div>
