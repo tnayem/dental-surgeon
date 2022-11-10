@@ -1,7 +1,10 @@
 import React from 'react';
 import useTitle from '../../Hooks/useTitle';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const AddService = () => {
+    const notify = () => toast("Service added Successfully");
     const handleSubmit =e=>{
         e.preventDefault()
         const form = e.target;
@@ -26,6 +29,7 @@ const AddService = () => {
         .then(res=>res.json())
         .then(data=>console.log(data))
         .catch(err=>console.error(err))
+        notify()
         form.reset();
     }
     useTitle("Add Service")
@@ -67,6 +71,7 @@ const AddService = () => {
                     </form>
                 </div>
             </div>
+            <ToastContainer/>
         </div>
     );
 };
