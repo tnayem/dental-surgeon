@@ -8,14 +8,14 @@ const MyReview = () => {
     useTitle("My Review");
     const { user } = useContext(AuthContext);
     useEffect(() => {
-        fetch(`http://localhost:5000/reviews?email=${user?.email}`)
+        fetch(`https://dental-surgeon-server-tnayem.vercel.app/reviews?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setMyReviews(data))
     }, [user?.email])
     const handleDelete =(id)=>{
         const proceed =window.confirm('Are you sure you want to delate your review')
         if(proceed){
-            fetch(`http://localhost:5000/reviews/${id}`,{
+            fetch(`https://dental-surgeon-server-tnayem.vercel.app/reviews/${id}`,{
                 method:'DELETE'
             })
             .then(res=>res.json())

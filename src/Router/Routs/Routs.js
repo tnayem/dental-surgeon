@@ -23,12 +23,12 @@ const router = createBrowserRouter([
             {
                 path:'/service',
                 element:<PrivateRouts><AllServices></AllServices></PrivateRouts>,
-                loader:()=>fetch('http://localhost:5000/doctorServices')
+                loader:()=>fetch('https://dental-surgeon-server-tnayem.vercel.app/doctorServices')
             },
             {
                 path:'/services/:id',
                 element:<PrivateRouts><ServiceDetails></ServiceDetails></PrivateRouts>,
-                loader:({params})=>fetch(`http://localhost:5000/doctorServices/${params.id}`)
+                loader:({params})=>fetch(`https://dental-surgeon-server-tnayem.vercel.app/doctorServices/${params.id}`)
             },
             {
                 path:'/login',
