@@ -4,11 +4,11 @@ const Footer = () => {
     return (
         <footer className="footer px-10 bg-neutral text-neutral-content py-32">
             <div>
-                <span className="footer-title">Services</span>
-                <a href="/" className="link link-hover">Branding</a>
-                <a href="/" className="link link-hover">Design</a>
-                <a href="/" className="link link-hover">Marketing</a>
-                <a href="/" className="link link-hover">Advertisement</a>
+                <span className="footer-title">My Services</span>
+                <a href="/" className="link link-hover">Teeth Cleanings</a>
+                <a href="/" className="link link-hover">Teeth Whitening</a>
+                <a href="/" className="link link-hover">Extractions</a>
+                <a href="/" className="link link-hover">Veneers</a>
             </div>
             <div>
                 <span className="footer-title">Company</span>
