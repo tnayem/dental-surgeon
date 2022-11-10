@@ -2,6 +2,7 @@ import { Result } from 'postcss';
 import React, { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/UserContext';
+import useTitle from '../../Hooks/useTitle';
 
 const Register = () => {
     const navigate = useNavigate()
@@ -35,6 +36,7 @@ const Register = () => {
         .then(()=>{})
         .catch(error=>console.error(error))
     }
+    useTitle("Register")
     return (
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col">

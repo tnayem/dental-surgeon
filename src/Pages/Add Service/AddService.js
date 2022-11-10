@@ -1,4 +1,5 @@
 import React from 'react';
+import useTitle from '../../Hooks/useTitle';
 
 const AddService = () => {
     const handleSubmit =e=>{
@@ -27,6 +28,7 @@ const AddService = () => {
         .catch(err=>console.error(err))
         form.reset();
     }
+    useTitle("Add Service")
     return (
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col ">

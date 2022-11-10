@@ -16,6 +16,8 @@ const Header = () => {
         <li className='font-semibold'><Link to='/service'>Service</Link></li>
         {user?.email && <li className='font-semibold'><Link to='/addservice'>Add Service</Link></li>}
         {user?.email && <li className='font-semibold'><Link to='/myreview'>My Reviews</Link></li>}
+        
+        <li className='font-semibold'><Link to='/blog'>Blog</Link></li>
         <li className='font-semibold'><Link to='/register'>Register</Link></li>
         {
             user?.email?

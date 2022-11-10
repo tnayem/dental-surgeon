@@ -4,6 +4,7 @@ import useTitle from '../../../Hooks/useTitle';
 import ServiceCard from './ServiceCard';
 
 const Services = () => {
+    useTitle("Services")
     const [services, setServices] = useState([]);
     // console.log(services);
     useEffect(() => {
